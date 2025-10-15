@@ -1,0 +1,71 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 0 20px;
+}
+
+/* Header section */
+header {
+  text-align: center;
+}
+
+/* Profile image (main photo) */
+img.profile {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Image used as a link (GitHub image link) */
+.link-image {
+  width: 120px;
+  height: 110px;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.link-image:hover {
+  transform: scale(1.05); /* gentle zoom on hover */
+}
+
+/* Navigation links (if you add any later) */
+nav a {
+  margin: 0 8px;
+  text-decoration: none;
+}
+
+/* Table with borders */
+table.bordered {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.bordered th,
+table.bordered td {
+  border: 1px solid #555;
+  padding: 8px;
+  text-align: left;
+}
+
+/* Table without borders */
+table.noborder {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+table.noborder td {
+  padding: 6px;
+}
+
+/* Footer styling */
+footer {
+  margin-top: 30px;
+  font-size: 0.9em;
+  color: #444;
+  text-align: center;
+}
